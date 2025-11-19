@@ -48,9 +48,9 @@ LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1003424586404'))  # Log channel i
 BIN_CHANNEL = int(environ.get('BIN_CHANNEL', '-1003424586404'))  # Bin channel id (make sure bot is admin)
 PREMIUM_LOGS = int(environ.get('PREMIUM_LOGS', '-1003424586404'))  # Premium logs channel id
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '').split()] #(make sure bot is admin)
-support_chat_id = environ.get('SUPPORT_CHAT_ID', '-100')  # Support group id (make sure bot is admin)
-reqst_channel = environ.get('REQST_CHANNEL_ID', '-100')  # Request channel id (make sure bot is admin)
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/')  # Support group link (make sure bot is admin)
+support_chat_id = environ.get('SUPPORT_CHAT_ID', '-1003434079874')  # Support group id (make sure bot is admin)
+reqst_channel = environ.get('REQST_CHANNEL_ID', '-1003434079874')  # Request channel id (make sure bot is admin)
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/miraclefilergroup')  # Support group link (make sure bot is admin)
 
 # FORCE_SUB 
 auth_req_channels = environ.get("AUTH_REQ_CHANNELS", "")# requst to join Channel for force sub (make sure bot is admin) only for bot ADMINS  
@@ -120,8 +120,8 @@ THREE_VERIFY_GAP = int(environ.get('THREE_VERIFY_GAP', "54000"))
 # ============================
 # Channel & Group Links Configuration
 # ============================
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/dreamxbotz') # Group link for the bot
-OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/Rioshin2025') # Owner link for the bot
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/miraclefilergroup') # Group link for the bot
+OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/miraclefilergroup') # Owner link for the bot
 UPDATE_CHNL_LNK = environ.get('UPDATE_CHNL_LNK', 'https://t.me/public_miracle_bots') # Update channel link for the bot
 
 # ============================
