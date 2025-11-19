@@ -118,7 +118,6 @@ class Database:
     async def get_banned(self):
     users = self.col.find({'ban_status.is_banned': True})
     chats = self.grp.find({'chat_status.is_disabled': True})
-
     b_chats = [
         chat.get('id') or chat.get('chat_id') or chat.get('_id')
         async for chat in chats
@@ -130,7 +129,6 @@ class Database:
         async for user in users
         if user
     ]
-
     return b_users, b_chats
     
     async def add_chat(self, chat, title):
