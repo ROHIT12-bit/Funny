@@ -108,16 +108,16 @@ class Database:
 
     async def get_all_users(self):
         return self.col.find({})
-    
     async def delete_user(self, user_id):
-        await self.col.delete_many({'id': int(user_id)})
-        
-    async def delete_chat(self, id):
-        await self.grp.delete_many({'id': int(id)})    
+    await self.col.delete_many({'id': int(user_id)})
 
-    async def get_banned(self):
+async def delete_chat(self, id):
+    await self.grp.delete_many({'id': int(id)})
+
+async def get_banned(self):
     users = self.col.find({'ban_status.is_banned': True})
     chats = self.grp.find({'chat_status.is_disabled': True})
+
     b_chats = [
         chat.get('id') or chat.get('chat_id') or chat.get('_id')
         async for chat in chats
@@ -129,15 +129,16 @@ class Database:
         async for user in users
         if user
     ]
+
     return b_users, b_chats
-    
-    async def add_chat(self, chat, title):
-        chat = self.new_group(chat, title)
-        await self.grp.insert_one(chat)
-    
-    async def get_chat(self, chat):
-        chat = await self.grp.find_one({'id':int(chat)})
-        return False if not chat else chat.get('chat_status')
+
+async def add_chat(self, chat, title):
+    chat = self.new_group(chat, title)
+    await self.grp.insert_one(chat)
+
+async def get_chat(self, chat):
+    chat = await self.grp.find_one({'id': int(chat)})
+    return False if not chat else chat.get('chat_status')
     
     async def re_enable_chat(self, id):
         chat_status=dict(
