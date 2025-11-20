@@ -1,17 +1,16 @@
 class script(object):
-    START_TXT = """<b><u>🚩 ᴊᴀɪ ꜱʜʀɪ ʀᴀᴍ 🚩</u></b>
+    START_TXT = """<blockquote>𝙃𝙚𝙮 {}</blockquote>
 
-<b>ʜᴇʏ {}, {}</b>
+<blockquote>𝙄 𝘼𝙢 𝙏𝙝𝙚 𝘽𝙚𝙨𝙩 𝘼𝙣𝙙 𝙋𝙤𝙬𝙚𝙧𝙛𝙪𝙡 𝘼𝙪𝙩𝙤 𝙁𝙞𝙡𝙩𝙚𝙧 𝘽𝙤𝙩 𝙒𝙞𝙩𝙝 𝙋𝙧𝙚𝙢𝙞𝙪𝙢 𝙁𝙚𝙖𝙩𝙪𝙧𝙚𝙨</blockquote>
 
-<b>🤖 ɪ ᴀᴍ <a href=https://t.me/{}>{}</a>, ᴛʜᴇ ᴍᴏꜱᴛ ᴘᴏᴡᴇʀꜰᴜʟ ᴀᴜᴛᴏ ꜰɪʟᴛᴇʀ ʙᴏᴛ ᴡɪᴛʜ ᴘʀᴇᴍɪᴜᴍ ꜰᴇᴀᴛᴜʀᴇꜱ.</b>
-"""
+<blockquote>›› ᴅᴇᴠᴇʟᴏᴘᴇᴅ ʙʏ: <a href="https://t.me/public_miracle_bots">ᴍɪʀᴀᴄʟᴇ ʙᴏᴛs</a></blockquote>"""
 
 
-    GSTART_TXT = """<b>🚩 ᴊᴀɪ ꜱʜʀɪ ʀᴀᴍ 🚩</b>
+    GSTART_TXT = """<blockquote>𝙃𝙚𝙮 {}</blockquote>
 
-<b>ʜᴇʏ {},</b>
+<blockquote>𝙄 𝘼𝙢 𝙏𝙝𝙚 𝘽𝙚𝙨𝙩 𝘼𝙣𝙙 𝙋𝙤𝙬𝙚𝙧𝙛𝙪𝙡 𝘼𝙪𝙩𝙤 𝙁𝙞𝙡𝙩𝙚𝙧 𝘽𝙤𝙩 𝙒𝙞𝙩𝙝 𝙋𝙧𝙚𝙢𝙞𝙪𝙢 𝙁𝙚𝙖𝙩𝙪𝙧𝙚𝙨</blockquote>
 
-<b>🤖 ɪ ᴀᴍ <a href=https://t.me/{}>{}</a>, ᴛʜᴇ ᴍᴏꜱᴛ ᴘᴏᴡᴇʀꜰᴜʟ ᴀᴜᴛᴏ ꜰɪʟᴛᴇʀ ʙᴏᴛ ᴡɪᴛʜ ᴘʀᴇᴍɪᴜᴍ ꜰᴇᴀᴛᴜʀᴇꜱ.</b>"""
+<blockquote>›› ᴅᴇᴠᴇʟᴏᴘᴇᴅ ʙʏ: <a href="https://t.me/public_miracle_bots">ᴍɪʀᴀᴄʟᴇ ʙᴏᴛs</a></blockquote>"""
 
     
     HELP_TXT = """<b>
@@ -26,7 +25,7 @@ class script(object):
 ➤ ᴅʀᴀᴍᴀ ɴᴀᴍᴇ + S01 (ꜰᴏʀ ꜱᴇᴀꜱᴏɴ 1, ᴄʜᴀɴɢᴇ ꜰᴏʀ ᴏᴛʜᴇʀꜱ)  
 
 📌 ꜰᴏʀ ʜɪɴᴅɪ ᴅʀᴀᴍᴀꜱ:  
-➤ ᴅʀᴀᴍᴀ ɴᴀᴍᴇ + ʜɪɴᴅɪ  
+➤ ᴅʀᴀᴍᴀ ɴᴀᴍᴇ + ᴛᴀᴍɪʟ  
 
 📌 ꜰᴏʀ ᴍᴏᴠɪᴇꜱ:  
 ➤ ᴍᴏᴠɪᴇ ɴᴀᴍᴇ + ʏᴇᴀʀ (ᴇx: ᴊᴏᴋᴇʀ 2019)  
@@ -50,7 +49,8 @@ class script(object):
 ⏰ Tɪᴍᴇ : <code>{}</code>
 🌐 Tɪᴍᴇᴢᴏɴᴇ : <code>Asia/Kolkata</code>
 🛠️ Bᴜɪʟᴅ Sᴛᴀᴛᴜs: <code> v1.4 [ Sᴛᴀʙʟᴇ ]</code>
-</b>"""
+</b>
+ᴀʟsᴏ ᴛʜᴀɴᴋs ᴛᴏ ʀɪᴏᴠsʜɪɴ"""
 
     CHANNELS = """
 <b>⚡ ɢʀᴏᴜᴘs & ᴄʜᴀɴɴᴇʟs ɪɴғᴏ ⚡ 
@@ -138,7 +138,7 @@ Nᴀᴍᴇ - {}
     CUDNT_FND = SPELLING_ERROR_TXT = """<b>‼️ ꜱᴘᴇʟʟɪɴɢ ᴍɪꜱᴛᴀᴋᴇ ʙʀᴏ!</b>  
 <b>😊 ɴᴏ ᴡᴏʀʀɪᴇꜱ — ᴄʜᴏᴏꜱᴇ ᴛʜᴇ ᴄᴏʀʀᴇᴄᴛ ᴏɴᴇ ʙᴇʟᴏᴡ 👇</b>
 
-<blockquote>👇 नीचे दिए गए विकल्पों में से movie के नाम की सही spelling चुनें</blockquote>"""
+<blockquote>sᴏʀʀʏ ᴄʟɪᴄᴋ ʙᴇʟʟᴏᴡ ᴏʀ ᴄᴏɴᴛᴀᴄᴛ @Rioshin2025</blockquote>"""
 
 
     DEL_MSG = """⚠️ ᴛʜɪꜱ ᴍᴏᴠɪᴇ ꜰɪʟᴇ/ᴠɪᴅᴇᴏ ᴡɪʟʟ ʙᴇ ᴅᴇʟᴇᴛᴇᴅ ɪɴ <b><u><code>{}</code></u></b>
@@ -155,11 +155,11 @@ Nᴀᴍᴇ - {}
 
 📝 ᴍᴏᴠɪᴇ ʀᴇǫᴜᴇꜱᴛ ꜰᴏʀᴍᴀᴛ 👇
 
-⚜️ ᴇxᴀᴍᴘʟᴇ : Jawan or Jawan 2023 
+⚜️ ᴇxᴀᴍᴘʟᴇ : Lio or Lio 2023 
 
 📝 ꜱᴇʀɪᴇꜱ ʀᴇǫᴜᴇꜱᴛ ꜰᴏʀᴍᴀᴛ 👇
 
-⚜️ ᴇxᴀᴍᴘʟᴇ : Loki S01 or Loki S01E04 or Lucifer S03E24
+⚜️ ᴇxᴀᴍᴘʟᴇ : It 2025 S01 or It 2025 S01E04 or Strange Things S02 Ep1
 
 🚯 ᴅᴏɴᴛ ᴜꜱᴇ ➠ ':(!,./)</b>"""
     
@@ -175,7 +175,7 @@ Nᴀᴍᴇ - {}
 
     MVE_NT_FND = NOT_FOUND_TXT = """<b>😌 ᴛʜɪꜱ ᴍᴏᴠɪᴇ ɪꜱ ɴᴏᴛ ᴀᴠᴀɪʟᴀʙʟᴇ ɪɴ ᴍʏ ᴅᴀᴛᴀʙᴀꜱᴇ.</b>
 
-<blockquote>😌 यह ᴍᴏᴠɪᴇ मुझे ᴍᴇʀᴇ ᴅᴀᴛᴀʙᴀꜱᴇ में नहीं मिली।</blockquote>"""
+<blockquote>ɪ ᴀᴍ ʀᴇᴀʟʟʏ sᴏʀʀʏ ᴘʟᴇᴀsᴇ ᴅᴍ @Rioshin2025 ᴛᴏ ɢᴇᴛ ʏᴏᴜʀ ғɪʟᴇs ᴀᴅᴅᴇᴅ</blockquote>"""
 
     
     TOP_ALRT_MSG = """ꜱᴇᴀʀᴄʜɪɴɢ ꜰᴏʀ ǫᴜᴇʀʏ ɪɴ ᴍʏ ᴅᴀᴛᴀʙᴀꜱᴇ..."""
@@ -199,8 +199,8 @@ Nᴀᴍᴇ - {}
 
 <blockquote>🎉 <b>ꜱᴇʟᴇᴄᴛ ʏᴏᴜʀ ᴅᴏɴᴀᴛɪᴏɴ ᴍᴇᴛʜᴏᴅ 👇</b></blockquote>
 
-➤ 📷 Qʀ ᴄᴏᴅᴇ → <a href='{}'>ᴄʟɪᴄᴋ ʜᴇʀᴇ ᴛᴏ ꜱᴄᴀɴ</a>  
-➤ 💸 ᴜᴘɪ ɪᴅ → <code>{}</code>
+➤Qʀ ᴄᴏᴅᴇ → ɴᴏ ᴀᴠᴀɪʟᴀʙʟᴇ ʀɪɢʜᴛ ɴᴏᴡ
+➤𝚄𝙿𝙸 𝙸𝙳: thafiyaparveen47@okhdfcbank
 
 ‼️ <b>ᴍᴜꜱᴛ ꜱᴇɴᴅ ꜱᴄʀᴇᴇɴꜱʜᴏᴛ ᴀꜰᴛᴇʀ ᴅᴏɴᴀᴛɪɴɢ.</b>"""
 
@@ -212,7 +212,7 @@ Nᴀᴍᴇ - {}
 
 ɢᴏ ᴛᴏ ɢᴏᴏɢʟᴇ ➠ ᴛʏᴘᴇ ꜱᴇʀɪᴇꜱ ɴᴀᴍᴇ ➠ ᴄᴏᴘʏ ᴄᴏʀʀᴇᴄᴛ ɴᴀᴍᴇ ➠ ᴘᴀꜱᴛᴇ ᴛʜɪꜱ ɢʀᴏᴜᴘ
 
-ᴇxᴀᴍᴘʟᴇ : Loki S01E01
+ᴇxᴀᴍᴘʟᴇ : Stranger Things S01E01
 
 🚯 ᴅᴏɴᴛ ᴜꜱᴇ ➠ ':(!,./)"""
 
@@ -224,7 +224,7 @@ Nᴀᴍᴇ : {}
 
 Mᴇꜱꜱᴀɢᴇ : <b>{}</b>"""
     
-    CAPTION = """<b><a href="https://t.me/dreamxbotz">{file_name}</a></b>\n\n<b>⚜️ Powered By : <a href="https://t.me/dreamxbotz">[ ᴅʀᴇᴀᴍxʙᴏᴛᴢ ]</a></b>"""
+    CAPTION = """<b><a href="https://t.me/public_miracle_bots">{file_name}</a></b>\n\n<b>⚜️ Powered By : <a href="https://t.me/public_miracle_bots">[ ᴍɪʀᴀᴄʟᴇ ʙᴏᴛs ]</a></b>"""
 
     
     MOVIE_UPDATE_NOTIFY_TXT = """
@@ -283,7 +283,7 @@ sʜᴏᴡɴ ɪɴ : {remaining_seconds} <i>sᴇᴄ</i>⚡️
 ◉ 60 ᴅᴀʏꜱ - 75 ₹  / 75 ꜱᴛᴀʀ
 
 •─────•─────────•─────•
-🏷️ <a href='https://t.me/dreamxbotz'>ꜱᴜʙꜱᴄʀɪᴘᴛɪᴏɴ ᴘʀᴏᴏꜰ</a>
+🏷️ <a href='https://t.me/Funnytamilan'>ꜱᴜʙꜱᴄʀɪᴘᴛɪᴏɴ ᴘʀᴏᴏꜰ</a>
 
 ‼️ ᴍᴜꜱᴛ ꜱᴇɴᴅ ꜱᴄʀᴇᴇɴꜱʜᴏᴛ ᴀꜰᴛᴇʀ ᴘᴀʏᴍᴇɴᴛ.
 ‼️ ᴀꜰᴛᴇʀ ꜱᴇɴᴅɪɴɢ ꜱᴄʀᴇᴇɴꜱʜᴏᴛ ɢɪᴠᴇ ᴜꜱ ꜱᴏᴍᴇᴛɪᴍᴇꜱ ᴛᴏ ᴀᴅᴅ ʏᴏᴜ ɪɴ ᴘʀᴇᴍɪᴜᴍ ʟɪꜱᴛ."""
@@ -292,7 +292,7 @@ sʜᴏᴡɴ ɪɴ : {remaining_seconds} <i>sᴇᴄ</i>⚡️
 
 ɴᴏᴡ ʏᴏᴜ ᴄᴀɴ ʙᴜʏ ᴏᴜʀ ᴘʀᴇᴍɪᴜᴍ ꜱᴇʀᴠɪᴄᴇ ᴜꜱɪɴɢ ᴛᴇʟᴇɢʀᴀᴍ ꜱᴛᴀʀꜱ.  
 
-ɪꜰ ʏᴏᴜ ꜰᴀᴄᴇ ᴀɴʏ ᴘʀᴏʙʟᴇᴍ, ᴛᴀᴋᴇ ᴀ ꜱᴄʀᴇᴇɴꜱʜᴏᴛ ᴀɴᴅ ꜱᴇɴᴅ ɪᴛ ᴛᴏ - @deendayal_Support_group
+ɪꜰ ʏᴏᴜ ꜰᴀᴄᴇ ᴀɴʏ ᴘʀᴏʙʟᴇᴍ, ᴛᴀᴋᴇ ᴀ ꜱᴄʀᴇᴇɴꜱʜᴏᴛ ᴀɴᴅ ꜱᴇɴᴅ ɪᴛ ᴛᴏ - @Funnytamilan
 
 ꜱᴇʟᴇᴄᴛ ʏᴏᴜʀ ᴅᴇꜱɪʀᴇᴅ ᴀᴍᴏᴜɴᴛ ᴀɴᴅ ᴘᴜʀᴄʜᴀꜱᴇ ᴀ ꜱᴜʙꜱᴄʀɪᴘᴛɪᴏɴ 👇.</b>
 """
@@ -301,7 +301,7 @@ sʜᴏᴡɴ ɪɴ : {remaining_seconds} <i>sᴇᴄ</i>⚡️
 
 ʏᴏᴜ ᴄᴀɴ ᴘᴜʀᴄʜᴀꜱᴇ ᴘʀᴇᴍɪᴜᴍ ᴛʜʀᴏᴜɢʜ ᴜᴘɪ , ɴᴇᴛ ʙᴀɴᴋɪɴɢ.
 
-💳 ᴜᴘɪ ɪᴅ - <code>{}</code>
+💳 𝚄𝙿𝙸 𝙸𝙳: thafiyaparveen47@okhdfcbank
 
 💢 ᴍᴜꜱᴛ ꜱᴇɴᴅ ꜱᴄʀᴇᴇɴꜱʜᴏᴛ ᴀꜰᴛᴇʀ ᴘᴀʏᴍᴇɴᴛ.
 
@@ -354,8 +354,8 @@ sʜᴏᴡɴ ɪɴ : {remaining_seconds} <i>sᴇᴄ</i>⚡️
 
 🏷️ <b>ᴘᴀʏᴍᴇɴᴛ ᴍᴇᴛʜᴏᴅꜱ</b>
 
-💸 ᴜᴘɪ ɪᴅ → <code>{}</code>  
-📷 ǫʀ ᴄᴏᴅᴇ → <a href='{}'>ᴄʟɪᴄᴋ ʜᴇʀᴇ ᴛᴏ ꜱᴄᴀɴ</a>  
+💸 𝚄𝙿𝙸 𝙸𝙳: thafiyaparveen47@okhdfcbank
+📷 ǫʀ ᴄᴏᴅᴇ → ɴᴏ ᴀᴠᴀɪʟᴀʙʟᴇ ʀɪɢʜᴛ ɴᴏᴡ
 
 🧾 ᴘᴀʏ ᴀᴄᴄᴏʀᴅɪɴɢ ᴛᴏ ʏᴏᴜʀ ᴘʟᴀɴ ᴀɴᴅ ᴇɴᴊᴏʏ ᴘʀᴇᴍɪᴜᴍ!
 
@@ -374,7 +374,7 @@ sʜᴏᴡɴ ɪɴ : {remaining_seconds} <i>sᴇᴄ</i>⚡️
 ○ ᴍᴜʟᴛɪ-ᴘʟᴀʏᴇʀ sᴛʀᴇᴀᴍɪɴɢ ʟɪɴᴋs
 ○ ᴀᴅ-ғʀᴇᴇ ᴇxᴘᴇʀɪᴇɴᴄᴇ
 
-👨‍💻 ᴄᴏɴᴛᴀᴄᴛ ᴛʜᴇ <a href='https://t.me/dreamxbotz'>Owner</a> ᴛᴏ ɢᴇᴛ ʏᴏᴜʀ ᴛʀɪᴀʟ.
+👨‍💻 ᴄᴏɴᴛᴀᴄᴛ ᴛʜᴇ <a href='https://t.me/Funnytamilan'>Owner</a> ᴛᴏ ɢᴇᴛ ʏᴏᴜʀ ᴛʀɪᴀʟ.
 
 ➛ ᴜꜱᴇ /plan ᴛᴏ ꜱᴇᴇ ᴀʟʟ ᴏᴜʀ ᴘʟᴀɴꜱ ᴀᴛ ᴏɴᴄᴇ.
 ➛ ᴄʜᴇᴄᴋ ʏᴏᴜʀ ᴀᴄᴛɪᴠᴇ ᴘʟᴀɴ ʙʏ ᴜꜱɪɴɢ : /myplan</b>"""
@@ -398,8 +398,7 @@ sʜᴏᴡɴ ɪɴ : {remaining_seconds} <i>sᴇᴄ</i>⚡️
 
     SOURCE_TXT ="""<b>ՏOᑌᖇᑕᗴ ᑕOᗪᗴ : 👇 </b>
 
-This Is An Open-Source Project. You Can Use It Freely, But Selling The Source Code Is Strictly Prohibited.\n
-ꜱᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ʜᴇʀᴇ ◉› :<a href=https://github.com/DreamXBotz/Auto_Filter_Bot.git>𝓓𝓻𝓮𝓪𝓶𝔁𝓑𝓸𝓽𝔃</a>\n """
+ғᴜʟʟʏ ᴘʀɪᴠᴀᴛᴇ ᴅᴍ @Rioshin2025 ᴛᴏ ʙᴜʏ ᴏʀ ᴇxᴄʜᴀɴɢᴇ"""
 
     SETTING_TXT = """    
 <u>ꜱᴇᴛᴛɪɴɢꜱ</u> :
